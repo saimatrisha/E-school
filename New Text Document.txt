@@ -1,0 +1,47 @@
+font family
+
+Rubik      700
+Poppins    400
+Roboto     400
+Poppins    700
+Poppins    500
+
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+
+
+
+color
+orange color: #FD511A;
+
+
+
+
+
+Graphic Design
+Web Design
+Business
+Marketing
+EngineeringWeb Design
+Business
+Marketing
+Engineering
+common
+
+
+
+
+
+
+font size
+
+xxl-xl-lg: 48px
+md: 48px
+sm-col: 35px
+
+
+
+padding 
+feature 45/100

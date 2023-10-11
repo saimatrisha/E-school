@@ -1,0 +1,281 @@
+/*fonts link*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&family=Ubuntu:wght@300&display=swap');
+
+/*common start*/
+body{
+	font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+
+}
+/*common end*/
+
+/*header start*/
+header{
+    padding: 15px 0;
+	background-color: #F0FFF0;
+}
+.c-nav{}
+.logo{}
+.menu{}
+.menu ul li a{
+	padding: 0 25px !important;
+	color: #000 !important;
+}
+.menu ul li a:hover{
+	color: #FD511A !important;
+}
+.btn-c{
+    border-radius: 33px;
+    background: #21B573;
+    color: #FFF!important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.btn-sign{
+	padding: 12px 28px;
+}
+.btn-c:hover{
+	background-color:#FD511A ;
+}
+.btn-c:active{
+	background-color: #FD511A !important;
+}
+/*header end*/
+
+/*banner start*/
+
+.banner{
+    padding-bottom: 65px;
+    background-color: #F0FFF0;
+}
+.b-text{}
+.b-p1{
+    color: #FD511A;
+   
+}
+.b-h1{
+    padding:0 35px 0 0;
+    margin: 10px 0 20px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; /* 145.833% */
+}
+.b-h1 span{
+    color: #21B573;
+}
+.b-p2{
+    padding:0 45px 0 0;
+    color: #000;
+    line-height: 36px; /* 225% */
+}
+.btn-link{
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-flex;
+    padding: 12px 36px;
+    align-items: center;
+    gap: 10px;
+}
+.b-img{}
+.b-img img{}
+
+
+
+/*banner end*/
+
+
+/*feature start*/
+
+.feature{
+
+}
+.c-padd{
+
+    padding-bottom: 100px;
+
+}
+.s-feature{
+    margin-top: 45px;
+    padding: 55px 0 50px;
+    background: #F0FFF0;
+    border-radius: 10px;
+    transition: .33s ease;
+}
+.s-feature:hover{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+}
+.s-img{
+    margin: 0 auto;
+    width: 65px;
+    height: 75px;
+}
+.s-img img{}
+.f-h2{
+    margin-top: 20px;
+    color: #413960;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+.f-p{}
+
+/*feature end*/
+
+/*course start*/
+.course{}
+.c-title{}
+.c-h1{
+    color: #413960;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+
+.c-item{
+    margin-top: 60px;
+    padding: 24px 20px 30px;
+    border-radius: 18px;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
+}
+
+.c-img{}
+.c-img img{}
+.c-h2{
+    margin: 20px 0 5px;
+    color: #413960;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.c-p{
+    color: #585859;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.c-btn{
+    margin: 20px 0 35px;
+    display: inline-flex;
+    padding: 8px 28px;
+    align-items: center;
+    gap: 10px;
+}
+
+.c-footer{}
+.cli:not(:last-child) {
+    margin-right: 2px;
+}
+.c-left{}
+.c-left ul li img{}
+.c-left ul li span{
+    color: #585859;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.c-right{}
+.c-right ul li img{}
+.c-right ul li span{
+    color: #585859;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/*course end*/
+
+/*testimony start*/
+.t-item{
+    margin-top: 60px;
+}
+.t-img{
+
+}
+.t-img img{
+    width: 100%;
+
+}
+.t-text{
+
+}
+.t-text p{
+
+}
+/*testimony end*/
+
+/*footer top start*/
+.footer-top{
+    padding: 55px 0 55px;
+    background-color: #282531;
+
+}
+.ft-details{
+     padding-right: 120px;
+
+}
+.ft-details p{
+   
+    line-height: 30px; /* 187.5% */
+    color: #FFF;
+
+}
+.ft-links{
+
+
+}
+.ft-links h2{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px; /* 166.667% */
+
+}
+.ft-links ul li a{
+    text-decoration: none;
+    margin-bottom: 8px;
+    display: block;
+    line-height: 30px;
+    color: #FFF;
+}
+
+/*footer top end*/
+
+/*footer start*/
+footer{
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #282531;
+}
+footer p{
+    color: #CDCDCD;
+    line-height: 30px; /* 187.5% */
+
+}
+footer p a{
+    text-decoration: none;
+    color: #CDCDCD;
+    line-height: 30px; /* 187.5% */
+}
+/*footer end*/

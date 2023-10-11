@@ -1,0 +1,285 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+/* header start	*/
+header {
+    padding: 0 0;
+   
+}
+.logo {
+    width: 170px;
+}
+.menu ul li a {
+    margin-bottom: 8px;
+    padding: 0 10px !important;
+    
+}
+/*banner start*/
+.banner{
+	padding-bottom: 60px;
+}
+.b-text {
+    text-align: center;
+}
+.b-h1 {
+	margin: 10px 0 10px;
+    padding: 0;
+    font-size: 30px;
+    line-height: 40px;
+    
+}
+.b-p2 {
+    padding: 0 ;
+    line-height: 27px;
+    
+}
+.b-img img {
+    padding: 0 ;
+    width: 100%;
+    margin-bottom: 30px;
+}
+/*feature start*/
+.c-padd {
+    padding-bottom: 60px;
+}
+.s-feature {
+    margin-top: 24px;
+} 
+/*course start*/
+.c-h1 {
+    font-size: 28px;
+}
+.c-h2 {
+   font-size: 20px;
+    
+}
+.c-item {
+    margin: 30px 0px 0;
+    padding: 10px 10px 15px;
+}
+/*1st img*/
+
+.c-left ul li img {
+    width: 18px;
+}
+.c-left ul li span {
+    font-weight: 400;
+}
+/*2nd img*/
+.c-right ul li img {
+    width: 18px;
+}
+.c-left ul li span {
+    font-weight: 400;
+}
+.cli:not(:last-child) {
+    margin-right: 0px;
+}
+/*testimony start*/
+.t-img {
+    padding: 0 50px 20px;
+}
+.t-text {
+    text-align: center;
+}
+.t-item{
+	margin-top: 30px;
+}
+/*footer top start*/
+.footer-top{
+	padding: 55px 0 20px;
+	text-align: center;
+}
+.ft-details{
+	margin-bottom: 35px;
+	padding-right: 0px;
+}
+.ft-links{
+	margin-bottom: 35px;
+}
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* header start	*/
+header {
+    padding: 5px 0;
+}
+.menu ul li a {
+    margin-bottom: 10px;
+    padding: 0 13px !important;
+}
+/*banner start*/
+.b-text {
+    text-align: center;
+}
+.b-h1 {
+	margin: 10px 0 10px;
+    padding: 0 70px 0;
+    font-size: 35px;
+    line-height: 47px;
+    
+}
+.b-p2 {
+    padding: 0 50px 0;
+    line-height: 30px;
+    
+}
+.b-img img {
+    padding: 0 100px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+/*feature start*/
+.c-padd{
+    padding-bottom: 60px;
+}
+.s-feature {
+    margin-top: 24px;
+}
+/*course start*/
+.c-item {
+    margin: 30px 60px 0;
+    padding: 20px 15px 25px;
+}
+.c-h1 {
+    font-size: 28px;
+} 
+/*testimony start*/
+.t-img {
+    padding: 0 120px 20px;
+}
+.t-text {
+    text-align: center;
+}
+.t-item{
+	margin-top: 30px;
+}
+/*footer top start*/
+.footer-top{
+	text-align: center;
+}
+.ft-details{
+	margin-bottom: 30px;
+	padding-right: 60px;
+	padding-left: 60px;
+}
+
+  
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* header start	*/
+.menu ul li a {
+   margin-bottom: 10px;
+   padding: 0 13px !important;
+   
+}
+/*banner start*/
+.b-text {
+    text-align: center;
+}
+.b-h1 {
+    padding: 0 90px 0;
+    
+}
+.b-p2 {
+    padding: 0 70px 0;
+    
+}
+.b-img img {
+    padding: 0 100px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+/*feature start*/
+.c-padd{
+    padding-bottom: 80px;
+}
+.s-feature {
+    margin-top: 24px;
+} 
+/*course start*/
+.c-item {
+    margin: 40px 100px 0;
+}
+/*testimony start*/
+.t-item{
+	margin-top: 40px;
+}
+/*footer top start*/
+.footer-top{
+	text-align: center;
+}
+.ft-details{
+	margin-bottom: 30px;
+	padding-right: 60px;
+	padding-left: 60px;
+}
+
+
+  
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/* banner start	*/
+.b-p2 {
+    padding-right: 50px;
+    color: #000;
+    line-height: 36px;
+}
+/*course start*/
+.c-item {
+    padding: 24px 15px 30px;
+   
+}
+/*1st img*/
+
+.c-left ul li img {
+    width: 18px;
+}
+.c-left ul li span {
+    font-weight: 400;
+}
+/*2nd img*/
+.c-right ul li img {
+    width: 18px;
+}
+.c-left ul li span {
+    font-weight: 400;
+}
+.cli:not(:last-child) {
+    margin-right: 0px;
+}
+	
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+/* banner start	*/
+
+.b-h1 {
+    padding-right: 100px;
+
+}
+.b-p2 {
+    padding-right: 117px;
+    color: #000;
+    line-height: 36px;
+}
+
+/*feature start*/
+
+.s-feature {
+    padding: 65px 0 60px;
+   
+}
+ }
